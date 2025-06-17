@@ -1,0 +1,13 @@
+name: quran_audio_flutter
+description: A Flutter app to play Quran recitation with synced ayahs
+publish_to: "none"
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  just_audio: ^0.9.34
+  audio_video_progress_bar: ^0.11.0
